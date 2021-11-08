@@ -1,0 +1,37 @@
+{
+  "name": "next-rest-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeltg/next-rest-example.git"
+  },
+  "author": "Joel Gustafson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joeltg/next-rest-example/issues"
+  },
+  "homepage": "https://github.com/joeltg/next-rest-example#readme",
+  "dependencies": {
+    "http-status-codes": "^2.1.4",
+    "io-ts": "^2.2.16",
+    "next": "^12.0.2",
+    "next-rest": "^0.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "typescript": "^4.4.4"
+  }
+}
